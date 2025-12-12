@@ -40,5 +40,8 @@ If the password is not strong, the program will print which conditions are missi
 
 | Sample Output          |
 | -----                  |
-| Weak, missing          |
-|- at least 8 characters |
+```text
+Weak, missing      
+- at least 8 characters
+```
+
