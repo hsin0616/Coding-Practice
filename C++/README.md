@@ -1,9 +1,10 @@
-# Tic-tac-toe Winner Checker
-This is a small C++ program that reads a 3×3 Tic-Tac-Toe board, prints it in a nice format, and checks whether **X** or **O** is the winner.
-
+# c++ program
+### Tic-tac-toe Winner Checker
+### Password Checker
 ---
-
-## Features
+## Tic-tac-toe Winner Checker
+This is a small C++ program that reads a 3×3 Tic-Tac-Toe board, prints it in a nice format, and checks whether **X** or **O** is the winner.
+### Features
 
 - Reads **9 characters** as the board:
   - `'X'` for player X
@@ -18,12 +19,26 @@ This is a small C++ program that reads a 3×3 Tic-Tac-Toe board, prints it in a 
   - `Winner: X`
   - `Winner: O`
   - or `No Winner.`
-
----
-
-## Example Input
+### Example Input
 
 When prompted:
 
 ```text
 Enter 9 characters (X, O, or  ' ' for empty
+```
+## Password Checker
+### Password Rules
+A password is considered **strong** if it:
+1. Has **at least 8 characters**
+2. Contains **at least one uppercase letter** (`A–Z`)
+3. Contains **at least one digit** (`0–9`)
+
+If the password is not strong, the program will print which conditions are missing.
+| Sample Input   |
+| -----          |
+| Enter: Abc123  |
+
+| Sample Output          |
+| -----                  |
+| Weak, missing          |
+|- at least 8 characters |
